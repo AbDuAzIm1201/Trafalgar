@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 65px 0;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  color: rgb(104, 98, 98);
+}
+.menu li a:hover {
+  color: black;
+  font-weight: 600;
+}
+.healthcare {
+  display: flex;
+  gap: 130px;
+  align-items: center;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.healthcare-text p {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #7d7987;
+  margin: 30px 0;
+}
+.btn{
+    color: white;
+    background: #458FF6;
+     padding: 17px 37px;
+     border: none;
+     border-radius: 40px;
+}
+.btn:hover{
+    background-color: white;
+    color: #458FF6;
+    border:  1px solid #458FF6;
+}
+.ota{
+display: flex;
+
+}
+.ota h2{
+  text-align: center;
+  
+}
+.ota p{
+text-align: center;
+
+}
+.ota2{
+display: flex;
+flex-wrap: wrap;
+justify-content: start;
+gap: 30px;
+align-items: start;
+
+
+}
+.ota2 div{
+  width: 20%;
+  height: 30%;
+  max-width: 1220px;
+  margin: 0 auto;
+  
+  box-shadow: 10px 40px 50px 0px #E5E9F666;
+ background-color: #E5E9F666
+
+}
+.btn2{
+  color: white;
+    background: #458FF6;
+     padding: 17px 37px;
+     border: none;
+     border-radius: 40px;
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.ota3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 30px;
+  align-items: start;
+
+}
+.ota3 div{
+display: flex;
+height: 30%;  
+padding-top:100px;
+width: 30%;
+justify-content: space-between;
+border-radius: 30px;
+box-shadow: 10px 40px 50px 0px #E5E9F666;
+ background-color: #E5E9F666
+ 
+ 
+
+}
+.ota3 a{
+  text-decoration: none;
+}
+.ota4{
+height: 116px;
+background-color: #458FF6;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 20px;
+gap: 20px;
+text-wrap: wrap;
+}
+.ota4 img{
+  height: 50px;
+}
+.ota4 h4{
+color: white;
+
+}
+.ota4 p{
+  color: white;
+}
